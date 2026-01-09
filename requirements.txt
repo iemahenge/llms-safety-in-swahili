@@ -1,0 +1,31 @@
+# Python version
+python>=3.10
+
+# Core ML / NLP
+torch>=2.1,<3.0
+transformers>=4.40,<5.0
+datasets>=2.18,<3.0
+sentencepiece>=0.2.0
+
+# Evaluation & metrics
+scikit-learn>=1.3,<2.0
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.11,<2.0
+
+# Multilingual & toxicity tools
+detoxify>=0.5.2
+langdetect>=1.0.9
+
+# Utilities
+tqdm>=4.66
+regex>=2023.12.25
+matplotlib>=3.8,<4.0
+seaborn>=0.13
+
+# Notebooks & experimentation
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Reproducibility
+python-dotenv>=1.0
